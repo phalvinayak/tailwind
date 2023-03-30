@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Pricing Grids</title>
+  </head>
+  <body>
+    <!-- Container -->
+    <div
+      class="flex flex-col gap-2 items-center justify-center min-h-screen bg-slate-800"
+    >
+      <!-- Above pricing block -->
+      <div
+        class="bg-slate-700 p-4 rounded-xl divide-y divide-slate-700 text-white"
+      >
+        <div
+          class="max-w-xs rounded-t-lg bg-slate-800 p-8 pb-12 flex flex-col items-center justify-center"
+        >
+          <p class="uppercase text-center">basic</p>
+          <p class="text-[3rem] font-serif mt-4">100GB</p>
+          <p class="text-center">$1.99/Month</p>
+          <div class="mt-4">
+            <button
+              class="border border-purple-500 rounded-lg px-10 py-3 transition hover:bg-purple-500 duration-300"
+            >
+              Purchase
+            </button>
+          </div>
+        </div>
+        <div class="max-w-xs rounded-b-lg bg-slate-800 p-8 text-center">
+          <ul class="list-disc flex items-center flex-col">
+            <li>100 GB of storage</li>
+            <li>Option to add members</li>
+            <li>Extra member benefits</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
